@@ -91,3 +91,43 @@ cursor: pointer;
         flex-direction: column;
     }
 }
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.team{
+    display: flex;
+    align-items: center;
+   
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-content-one{
+    color: var(--Dark-03, #727272);
+font-size: 3rem;
+font-weight: 500;
+}
+.team-content-two{
+    color: var(--Dark-01, #131313);
+font-size: 3rem;
+font-weight: 700;
+}
+.team-content-three{
+    color: #FF900E;
+font-size: 3rem;
+font-weight: 700;
+}
+.team-content-des{
+    color: var(--Dark-03, #727272);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+}
