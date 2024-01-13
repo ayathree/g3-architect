@@ -115,6 +115,46 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 26px;
 }
+.x{
+    color: var(--Dark-01, #131313);
+font-size: 3rem;
+font-weight: 700;
+}
+.y{
+    color: var(--Dark-03, #727272);
+font-size: 1.28rem;
+font-weight: 400;
+line-height: 26px;
+width: 542px;
+}
+.fact{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.fact-img{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 40px 30px;
+
+}
+.fact-title{
+    color: var(--Dark-02, #424242);
+font-size: 3rem;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.fact-des{
+    color: var(--Dark-03, #727272);
+font-size: 1.28rem;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
 
 
 
