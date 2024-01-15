@@ -197,6 +197,13 @@ margin-top: 10px;
 margin-bottom: 10px;
 
 }
+footer{
+    text-align: center;
+    margin: 0px 52px 55px 52px;
+ padding: 10px;  
+border-radius: 8px;
+background: #FFF4E7;
+}
 
 
 
@@ -236,6 +243,11 @@ margin-bottom: 10px;
     .img{
         top:600px;
         left:145px;
+    }
+    footer{
+        width: 500px;
+        margin: 0px 22px 10px 12px;
+        padding: 10px;
     }
 }
 @media screen and (min-width:576px) and (max-width:960px) {
